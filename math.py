@@ -17,3 +17,8 @@ print(arr3)
 print(arr1.ndim)
 print(arr2.ndim)
 print(arr3.ndim)
+#Higher Dimensional Arrays
+import numpy as np
+arr4=np.array([12,13,14,15],ndmin=6)
+print(arr4)
+print(arr4.ndim)
